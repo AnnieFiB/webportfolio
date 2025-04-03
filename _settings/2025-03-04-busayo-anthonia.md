@@ -1,7 +1,8 @@
 ---
 
 userName: Busayo Anthonia
-userIntro: I’m a data engineering and analytics professional with a strong
+userIntro: |
+I’m a data engineering and analytics professional with a strong
 background in building scalable data pipelines, automating ETL processes, and
 transforming raw data into actionable business insights. My work spans the
 full data lifecycle—from data ingestion and warehousing to visualisation and
