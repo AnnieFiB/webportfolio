@@ -1,4 +1,3 @@
----
 userName: Busayo Anthonia
 userIntro: I’m a data engineering and analytics professional with a strong
   background in building scalable data pipelines, automating ETL processes, and
@@ -14,4 +13,8 @@ userIntro: I’m a data engineering and analytics professional with a strong
   collaborate to unlock the full potential of data in your organization or
   project.
 metaImage: /assets/lily.jpeg
----
+instagram: https://www.instagram.com
+facebook: https://www.facebook.com
+linkedin: https://www.linkedin.com
+bluesky: https://bsky.app
+github: https://www.github.com

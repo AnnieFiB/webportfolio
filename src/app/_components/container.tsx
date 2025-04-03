@@ -1,3 +1,5 @@
+import { ContactCard } from "./contact-card";
+
 type Props = {
   children?: React.ReactNode;
 };

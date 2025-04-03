@@ -31,3 +31,10 @@ content:
       - { name: userName, label: User Name, type: string, required: true }
       - { name: userIntro, label: User Intro, type: string, required: true }
       - {name: metaImage, label: Thumbnail Image, type: image, required: false}
+      - {name: instagram, label: Instagram, type: string, required: false}
+      - {name: facebook, label: Facebook, type: string, required: false}
+      - {name: linkedin, label: LinkedIn, type: string, required: false}
+      - {name: email, label: Email, type: string, required: false}
+      - {name: phone, label: Phone, type: string, required: false}
+      - {name: bluesky, label: BlueSky, type: string, required: false}
+      - {name: github, label: GitHub, type: string, required: false}
