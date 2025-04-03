@@ -14,11 +14,13 @@ link: https://www.kaggle.com/code/busayof/telco-customer-churn-prediction
 ---
 # **Predicting Customer Churn: A Telecom Industry Case Study with Machine Learning**
 
-### Discover how machine learning can predict telecom customer churn. Learn to clean data, handle imbalances, and deploy models (Logistic Regression, Random Forest, KNN) to retain high-risk customers. Perfect for data scientists and telecom professionals.
+Discover how machine learning can predict telecom customer churn. Learn to clean data, handle imbalances, and deploy models (Logistic Regression, Random Forest, KNN) to retain high-risk customers. Perfect for data scientists and telecom professionals.
+
+`#CustomerChurn #TelecomAnalytics #MachineLearning #DataScience`
 
 ## **Introduction: The Cost of Customer Churn**
 
-Customer churn is a critical challenge for telecom companies—losing a customer is **5-25x more expensive** than retaining one. This project tackles churn prediction using **machine learning (ML)**, analyzing a telecom dataset to:
+Customer churn is a critical challenge for telecom companies—losing a customer is 5-25x more expensive than retaining one. This project tackles churn prediction using machine learning (ML), analyzing a telecom dataset to
 
 *   **Identify at-risk customers** (e.g., short-tenure, high-cost plans).
     
@@ -31,91 +33,83 @@ Customer churn is a critical challenge for telecom companies—losing a customer
 
 ## **Key Insights from Exploratory Data Analysis (EDA)**
 
-### **1\. Who is Most Likely to Churn?**
+**Who is Most Likely to Churn?**
 
-*   **Contract Type**: `Month-to-month customers` churn **3x more** than those on 1- or 2-year contracts.
+*   **Contract Type**: Month-to-month customers churn 3x more than those on 1- or 2-year contracts.
     
-*   **Services**: Customers `without tech support` **or** `online security` **churn 2.5x more.**
+*   **Services:** Customers without tech support or online security churn 2.5x more.
     
-*   **Billing**: `Electronic check users and paperless billing subscribers` show **higher attrition rates**.
+*   **Billing:** Electronic check users and paperless billing subscribers show higher attrition rates.
     
-*   **Demographics**: `Senior citizens and singles` (no partner/dependents) are **more prone to churn.**
+*   **Demographics:** Senior citizens and singles (no partner/dependents) are more prone to churn.
     
 
 **_Top factors: Contract type, monthly charges, and tenure._**
 
-### **2\. Data Cleaning & Preprocessing**
+## **Data Cleaning & Preprocessing**
 
-*   Fixed **missing values** in `TotalCharges` (imputed with median).
+*   Fixed missing values in TotalCharges (imputed with median).
     
-*   Encoded **categorical variables** (e.g., `Contract`, `PaymentMethod`).
+*   Encoded categorical variables (e.g., Contract, PaymentMethod).
     
-*   Addressed **class imbalance** (26% churners) using **SMOTE**.
+*   Addressed class imbalance (26% churners) using SMOTE.
     
 
 ## **Machine Learning Approach**
 
-### **Model Comparison**
+**Model Comparison:** I trained and evaluated 4 algorithms:
 
-> I Trained and evaluated 4 algorithms:
-
-| **Model** | **Recall** | **F1-Score** | **Best For** |
-
-|----------------------|------------|--------------|----------------------------------|
-
+|     |     |     |     |
+| --- | --- | --- | --- |
+| Model | Recall | F1-Score | Best For |
 | Logistic Regression | 0.83 | 0.79 | Interpretability |
-
 | Random Forest | 0.87 | 0.85 | Balanced performance |
-
 | SVM | 0.88 | 0.83 | High-dimensional data |
+| **KNN (Selected)** | 0.91 | 0.82 | **Maximizing churn detection** |
 
-| **KNN (Selected)** | **0.91** | 0.82 | **Maximizing churn detection** |
+**_Why KNN? With 91% recall, it captures the most at-risk customers, Critical for retention campaigns._**
 
-**Why KNN? With 91% recall, it captures the most at-risk customers, Critical for retention campaigns.**
+**Model Deployment**
 
-### **Model Deployment**
-
-1.  **Proactive Alerts**: Flag high-risk customers in CRM systems.
+*   Proactive Alerts: Flag high-risk customers in CRM systems.
     
-2.  **Personalized Offers**: Discounts for month-to-month users.
+*   Personalized Offers: Discounts for month-to-month users.
     
-3.  **Service Bundles**: Promote tech support + security add-ons.
+*   Service Bundles: Promote tech support + security add-ons.
     
 
 ## **Actionable Recommendations**
 
-1.  1\. **Target High-Risk Groups**:
-    
-    *   Offer **loyalty discounts** to month-to-month customers.
-        
-    *   Upsell **service bundles** (e.g., internet + security).
-        
-2.  **Improve Customer Experience**:
-    
-    *   Proactively check in with **short-tenure customers**.
-        
-    *   Simplify billing for **electronic check users**.
-        
-3.  **Monitor & Iterate**:
-    
-    *   Retrain models quarterly with new churn data.
-        
-    *   Track intervention success rates.
-        
+**Target High-Risk Groups:**
 
-## **Conclusion: Retention as a Growth Strategy**
-
-By leveraging ML, telecom companies can:
-
-*   **Reduce churn** by 20-30% with targeted efforts.
+*   Offer loyalty discounts to month-to-month customers.
     
-*   **Increase the lifetime value** of retained customers.
+*   Upsell service bundles (e.g., internet + security).
     
-*   **Turn data insights into competitive advantage**.
+
+**Improve Customer Experience:**
+
+*   Proactively check in with short-tenure customers.
+    
+*   Simplify billing for electronic check users.
+    
+
+Monitor & Iterate:
+
+*   Retrain models quarterly with new churn data.
+    
+*   Track intervention success rates.
+    
+
+## **Conclusion: Retention as a Growth Strategy :** By leveraging ML, telecom companies can:
+
+*   Reduce churn by 20-30% with targeted efforts.
+    
+*   Increase the lifetime value of retained customers.
+    
+*   Turn data insights into a competitive advantage.
     
 
 <p style="text-align: center"><strong>Explore the Code: [</strong><a href="https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/Telco_customer_churn_prediction.ipynb"><strong>GitHub Link</strong></a><strong>] | Discuss: How is your team tackling churn?</strong></p>
-
-`#CustomerChurn #TelecomAnalytics #MachineLearning #DataScience`
 
 **Which churn factor surprised you? Comment below!**
