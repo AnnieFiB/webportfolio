@@ -5,71 +5,76 @@ excerpt: Unlock the power of Python for HR attrition analysis. Dive into
   predictive modeling to enhance workforce management.
 coverImage: /assets/HR attrition analysis-3.png
 date: 2025-03-22T17:15:00.000Z
-link: https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/HR%20Attrition%20Analysis.ipynb
+link: https://hrattrition-dashboard.streamlit.app/
 ---
-# **Understanding Employee Attrition & Performance with IBM HR Data**
+**Predicting Employee Attrition: A Data-Driven Approach with IBM HR Analytics (Follow link below to the dashboard)**
 
-## **Introduction**
+**Introduction**
 
-Employee attrition is a critical challenge for companies, impacting productivity, costs, and workplace morale. Using **IBM HR data**, this project uncovers patterns in attrition and provides **data-driven insights** to help businesses improve retention strategies.
+**Employee attrition is a costly challenge, affecting productivity, morale, and organizational stability. Using IBM’s HR Analytics dataset, this project uncovers hidden patterns in employee turnover and delivers actionable insights to help businesses retain top talent and optimize workforce strategies.**
 
-## **Key Objectives**
+**Key Objectives**
 
-*   Identify **demographic, professional, and behavioral factors** contributing to attrition.
-    
-*   Analyze correlations between **salary, job satisfaction, workload, and attrition rates**.
-    
-*   Build predictive models to **assess attrition risk** and guide HR interventions.
-    
-*   Offer **strategic recommendations** to reduce turnover and retain top talent.
-    
+**1\. Diagnose Attrition Drivers: Identify demographic, role-specific, and behavioral factors linked to turnover.**
 
-## **Project Workflow**
+**2\. Quantify Correlations: Analyze relationships between salary, job satisfaction, workload, and attrition risk.**
 
-### **1\. Data Exploration & Cleaning**
+**3\. Predict Turnover: Build ML models to flag at-risk employees with high accuracy.**
 
-The dataset contains employee demographics, compensation details, job roles, and satisfaction scores. Initial processing includes:
+**4\. Recommend Interventions: Propose targeted HR strategies to reduce attrition.**
 
-*   Removing redundant features and handling missing values.
-    
-*   Standardizing categorical variables for consistency.
-    
+**Methodology**
 
-### **2\. Exploratory Data Analysis (EDA)**
+**1\. Data Exploration & Cleaning**
 
-Key patterns emerged during analysis:
+**\- Processed 1,470 employee records with features like:**
 
-*   **Younger employees** and **single professionals** showed higher attrition rates.
-    
-*   **Lower salaries** and **overtime work** significantly increased attrition risk.
-    
-*   **Job satisfaction and engagement** were strong predictors—disengaged employees were more likely to leave.
-    
+**\- Demographics (age, gender, education)**
 
-### **3\. Predictive Modeling**
+**\- Job-related (role, salary, overtime, promotions)**
 
-Machine learning models, including **Random Forest, LightGBM, and SVM**, were trained to identify employees at risk of leaving.
+**\- Behavioral (job satisfaction, work-life balance ratings).**
 
-*   **SVM performed best**, achieving **99% recall**, ensuring high accuracy in flagging potential attrition cases.
-    
-*   Imbalanced data was handled using **SMOTE**, improving model effectiveness.
-    
+**\- Addressed missing values, outliers, and categorical encoding.**
 
-### **4\. Strategic Recommendations**
+**2\. Exploratory Data Analysis (EDA)**
 
-Based on findings, HR teams can implement:
+**\- Key Findings:**
 
-*   **Workload balance & flexible hours** to reduce burnout.
-    
-*   **Salary adjustments & career progression plans** to retain employees.
-    
-*   **Satisfaction surveys & mentorship programs** for better engagement.
-    
-*   **Hybrid work options** for those with long commutes.
-    
+**\- Employees working overtime were 2.3× more likely to leave.**
 
-## **Conclusion**
+**\- Low satisfaction scores (<3/10) correlated with 68% higher attrition.**
 
-By leveraging predictive analytics, businesses can **proactively mitigate employee attrition** and build a resilient workforce. Data-driven HR strategies ensure companies retain talent while optimizing workplace culture and productivity.
+**\- Sales and R&D roles had the highest turnover rates (25% of departures).**
 
-* * *
+**3\. Predictive Modeling**
+
+**\- Trained Random Forest, LightGBM, and SVM models to predict attrition risk.**
+
+**\- Best Model: SVM (Recall: 99%) — accurately flagged 99% of at-risk employees.**
+
+**\- Handled Imbalance: Applied SMOTE to improve minority-class (attrition) prediction.**
+
+**Strategic Recommendations**
+
+**1\. Target High-Risk Groups:**
+
+**\- Offer retention bonuses or flexible schedules to overtime employees.**
+
+**\- Address burnout in Sales/R&D teams with workload audits.**
+
+**2\. Boost Satisfaction:**
+
+**\- Launch mentorship programs for employees with <2 years of tenure.**
+
+**\- Tie promotions to career development plans.**
+
+**3\. Proactive Alerts:**
+
+**\- Integrate the model into HR systems to flag at-risk employees in real time.**
+
+**\---**
+
+**Conclusion**
+
+**By combining exploratory analytics and machine learning, this project empowers HR teams to predict attrition before it happens and implement evidence-based retention strategies. The result? A more engaged, stable workforce and lower turnover costs.**
