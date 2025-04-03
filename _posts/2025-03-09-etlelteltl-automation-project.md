@@ -5,7 +5,7 @@ excerpt: This project aims to automate the Extract, Transform, Load (ETL),
   processes to enhance data pipeline efficiency. By leveraging cloud-based
   solutions and orchestration tools, the system ensures seamless data
   integration, transformation, and storage while minimizing manual intervention.
-coverImage: /assets/etl.png
+coverImage: /assets/etl-1.png
 date: 2025-05-14T00:00:00.000Z
 ---
 _This project focuses on automating data pipelines to enhance efficiency in extraction, transformation, and loading processes. Leveraging cloud-based solutions and scalable frameworks ensures seamless data integration while minimizing manual intervention._
