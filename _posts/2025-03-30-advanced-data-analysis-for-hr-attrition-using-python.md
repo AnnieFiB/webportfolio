@@ -43,11 +43,11 @@ link: https://hrattrition-dashboard.streamlit.app/
 
 **\- Key Findings:**
 
-*   `- Employees working overtime were 2.3× more likely to leave.`
+*   **_\- Employees working overtime were 2.3× more likely to leave._**
     
-*   `- Low satisfaction scores (<3/10) correlated with 68% higher attrition.`
+*   **_\- Low satisfaction scores (<3/10) correlated with 68% higher attrition._**
     
-*   `- Sales and R&D roles had the highest turnover rates (25% of departures).`
+*   **_\- Sales and R&D roles had the highest turnover rates (25% of departures)._**
     
 
 ### **3\. Predictive Modeling**
@@ -81,4 +81,4 @@ link: https://hrattrition-dashboard.streamlit.app/
 
 **By combining exploratory analytics and machine learning, this project empowers HR teams to predict attrition before it happens and implement evidence-based retention strategies. The result? A more engaged, stable workforce and lower turnover costs.**
 
-**Explore the Code: \[**[**GitHub Link**](https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/HR%20Attrition%20Analysis.ipynb)**\] | Let’s Discuss: How is your organization tackling attrition?**
+<p style="text-align: center"><strong>Explore the Code: [</strong><a href="https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/HR%20Attrition%20Analysis.ipynb"><strong>GitHub Link</strong></a><strong>] | Let’s Discuss: How is your organization tackling attrition?</strong></p>
