@@ -77,4 +77,6 @@ link: https://hrattrition-dashboard.streamlit.app/
 
 **Conclusion**
 
-**By combining exploratory analytics and machine learning, this project empowers HR teams to predict attrition before it happens and implement evidence-based retention strategies. The result? A more engaged, stable workforce and lower turnover costs.**
+**By combining exploratory analytics and machine learning, this project empowers HR teams to predict attrition before it happens and implement evidence-based retention strategies. The result? A more engaged, stable workforce and lower turnover costs.**  
+  
+**Explore the Code**: \[[GitHub Link](https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/HR%20Attrition%20Analysis.ipynb)\] | **Let’s Discuss**: How is your organization tackling attrition?
