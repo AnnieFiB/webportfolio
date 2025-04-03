@@ -17,77 +17,77 @@ Studying abroad can be a transformative experience, but it also brings unique me
 
 ## **Key Findings at a Glance**
 
-1\. **Higher Depression Scores**
-
-\- International students averaged **8.5/25** on the PHQ-9 depression scale, compared to 8.0 for domestic students.
-
-2\. **Social Connectedness Matters**
-
-\- A strong negative correlation (-0.54) between social ties and depression for international students.
-
-3\. **Acculturative Stress Plays a Role**
-
-\- Stress levels showed a **moderate positive correlation (0.41)** with depression for international students.
-
-4\. **Length of Stay Has Mixed Effects**
-
-\- Depression scores fluctuated for international students over time, peaking after 6+ years.
+1.  **Higher Depression Scores**
+    
+    1.  International students averaged **8.5/25** on the PHQ-9 depression scale, compared to 8.0 for domestic students.
+        
+2.  **Social Connectedness Matters**
+    
+    1.  A strong negative correlation (-0.54) between social ties and depression for international students.
+        
+3.  **Acculturative Stress Plays a Role**
+    
+    1.  Stress levels showed a **moderate positive correlation (0.41)** with depression for international students.
+        
+4.  **Length of Stay Has Mixed Effects**
+    
+    1.  Depression scores fluctuated for international students over time, peaking after 6+ years.
+        
 
 ## **Methodology: SQL & Python in Action**
 
 ### **Tools Used**
 
-\- **Data Extraction**: Kaggle API
-
-\- **Analysis**: SQLAlchemy, Pandas
-
-\- **Visualization**: Matplotlib, Seaborn
+*   **Data Extraction**: Kaggle API
+    
+*   **Analysis**: SQLAlchemy, Pandas
+    
+*   **Visualization**: Matplotlib, Seaborn
+    
 
 ## **SQL Queries for Insights**
 
 I ran targeted SQL queries to compare international and domestic students:
 
-`Example: Social Connectedness vs. Depression`
+**Example: Social Connectedness vs. Depression**
 
-SELECT student\_type, AVG(social\_connectedness\_score) AS avg\_scs, AVG(PHQ9\_depression\_score) AS avg\_depression FROM students\_mental\_health\_data
-
-GROUP BY student\_type;
+<p style="text-align: center"><code>SELECT student_type, AVG(social_connectedness_score) AS avg_scs, AVG(PHQ9_depression_score) AS avg_depression FROM students_mental_health_data</code></p><p style="text-align: center"><code>GROUP BY student_type;</code></p>
 
 ```
 Result: International students with lower social connectedness averaged 20% higher depression scores.
 ```
 
-_As social ties strengthen, depression scores drop, especially for international students._
+*   _As social ties strengthen, depression scores drop, especially for international students._
+    
 
-`Acculturative Stress Impact`
+**Acculturative Stress Impact**
 
-!\[Stress vs. Depression Plot\](placeholder-url)
-
-`Higher stress = Higher depression, with international students most affected.`
+*   _Higher stress = Higher depression, with international students most affected._
+    
 
 ## **Actionable Recommendations**
 
-### 1\. **For Universities**:
+1.  **For Universities**:
+    
+    1.  Expand peer mentorship and cultural integration programs
+        
+    2.  Offer targeted counseling for long-term international students.
+        
+2.  **For Students**:
+    
+    1.  Prioritize building social networks early.
+        
+    2.  Use stress-management resources (e.g., workshops, mindfulness apps).
+        
 
-\- Expand peer mentorship and cultural integration programs.
+## **Future Research Directions :** To deepen these insights, future studies could explore:
 
-\- Offer targeted counseling for long-term international students.
-
-### 2\. **For Students**:
-
-\- Prioritize building social networks early.
-
-\- Use stress-management resources (e.g., workshops, mindfulness apps).
-
-## **Future Research Directions**
-
-To deepen these insights, future studies could explore:
-
-\- The role of **language proficiency** in stress levels.
-
-\- How **extracurriculars** (e.g., clubs, sports) mitigate depression.
-
-\- Longitudinal tracking of mental health trends.
+*   The role of **language proficiency** in stress levels.
+    
+*   How **extracurriculars** (e.g., clubs, sports) mitigate depression.
+    
+*   Longitudinal tracking of mental health trends.
+    
 
 ## **Conclusion**
 
@@ -95,6 +95,4 @@ Data reveals a clear need for tailored mental health support for international s
 
 **Explore the Code & Dataset**: \[[GitHub Repo Link\]](https://github.com/AnnieFiB/my_projects/tree/main/DataAnalysis) | **Questions?** Let’s discuss in the comments!
 
-`#StudyAbroad #MentalHealth #DataScience #HigherEducation`
-
-`- Call-to-Action: "Which factor surprised you most? Share your thoughts below!"`
+<p style="text-align: center"><strong><em>#StudyAbroad #MentalHealth #DataScience #HigherEducation</em></strong></p><p style="text-align: center"><strong><em>Call-to-Action: "Which factor surprised you most? Share your thoughts below!"</em></strong></p>
