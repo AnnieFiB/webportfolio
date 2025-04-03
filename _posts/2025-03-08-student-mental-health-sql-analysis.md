@@ -65,7 +65,7 @@ _Higher stress = Higher depression, with international students most affected._
 
 \---
 
-\## **Actionable Recommendations**
+**Actionable Recommendations**
 
 1\. **For Universities**:
 
@@ -81,7 +81,7 @@ _Higher stress = Higher depression, with international students most affected._
 
 \---
 
-\## **Future Research Directions**
+**Future Research Directions**
 
 To deepen these insights, future studies could explore:
 
@@ -93,14 +93,12 @@ To deepen these insights, future studies could explore:
 
 \---
 
-\## **Conclusion**
+**Conclusion**
 
 Data reveals a clear need for tailored mental health support for international students. By addressing social isolation and acculturative stress, universities can foster healthier, more inclusive environments—turning challenges abroad into opportunities for growth.
 
 \---
 
-\### **SEO & Engagement Tips for Publishing**
-
-\- **Tags**: #StudyAbroad #MentalHealth #DataScience #HigherEducation
+#StudyAbroad #MentalHealth #DataScience #HigherEducation
 
 \- **Call-to-Action**: "Which factor surprised you most? Share your thoughts below!"
