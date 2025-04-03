@@ -1,5 +1,5 @@
 ---
-title: Predicting Telco Customer Churn Using Machine Learning
+title: Predicting Telecommunication's Customer Churn Using Machine Learning
 excerpt: "Customer churn poses significant challenges for telecom providers,
   especially in a competitive market. This analysis explores the use of machine
   learning to predict churn, highlighting real-world scenarios such as
