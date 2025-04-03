@@ -9,13 +9,13 @@ coverImage: /assets/sqlmntal.avif
 date: 2023-05-22T00:00:00.000Z
 link: https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/MentalHealthSQL_Panda.ipynb
 ---
-**How Studying Abroad Affects Mental Health: A Data-Driven Analysis**
+# **How Studying Abroad Affects Mental Health: A Data-Driven Analysis**
 
-**Introduction**
+## **Introduction**
 
 Studying abroad can be a transformative experience, but it also brings unique mental health challenges. Using a 2018 survey dataset from a Japanese international university, this project analyzes the psychological impact of studying in a foreign country. Leveraging **SQL, Python (Pandas, SQLAlchemy), and data visualization tools**, I explored how factors like social connectedness, acculturative stress, and length of stay correlate with depression—and why international students may face higher risks.
 
-**Key Findings at a Glance**
+## **Key Findings at a Glance**
 
 1\. **Higher Depression Scores**
 
@@ -33,9 +33,9 @@ Studying abroad can be a transformative experience, but it also brings unique me
 
 \- Depression scores fluctuated for international students over time, peaking after 6+ years.
 
-**Methodology: SQL & Python in Action**
+## **Methodology: SQL & Python in Action**
 
-**Tools Used**
+### **Tools Used**
 
 \- **Data Extraction**: Kaggle API
 
@@ -43,45 +43,43 @@ Studying abroad can be a transformative experience, but it also brings unique me
 
 \- **Visualization**: Matplotlib, Seaborn
 
-**SQL Queries for Insights**
+## **SQL Queries for Insights**
 
 I ran targeted SQL queries to compare international and domestic students:
 
-\-- Example: Social Connectedness vs. Depression
+`Example: Social Connectedness vs. Depression`
 
 SELECT student\_type, AVG(social\_connectedness\_score) AS avg\_scs, AVG(PHQ9\_depression\_score) AS avg\_depression FROM students\_mental\_health\_data
 
 GROUP BY student\_type;
 
-\`\`\`**Result**: International students with lower social connectedness averaged **20% higher depression scores**. ---
+```
+Result: International students with lower social connectedness averaged 20% higher depression scores.
+```
 
 _As social ties strengthen, depression scores drop, especially for international students._
 
-**Acculturative Stress Impact**
+`Acculturative Stress Impact`
 
 !\[Stress vs. Depression Plot\](placeholder-url)
 
-_Higher stress = Higher depression, with international students most affected._
+`Higher stress = Higher depression, with international students most affected.`
 
-\---
+## **Actionable Recommendations**
 
-**Actionable Recommendations**
-
-1\. **For Universities**:
+### 1\. **For Universities**:
 
 \- Expand peer mentorship and cultural integration programs.
 
 \- Offer targeted counseling for long-term international students.
 
-2\. **For Students**:
+### 2\. **For Students**:
 
 \- Prioritize building social networks early.
 
 \- Use stress-management resources (e.g., workshops, mindfulness apps).
 
-\---
-
-**Future Research Directions**
+## **Future Research Directions**
 
 To deepen these insights, future studies could explore:
 
@@ -91,14 +89,12 @@ To deepen these insights, future studies could explore:
 
 \- Longitudinal tracking of mental health trends.
 
-\---
-
-**Conclusion**
+## **Conclusion**
 
 Data reveals a clear need for tailored mental health support for international students. By addressing social isolation and acculturative stress, universities can foster healthier, more inclusive environments—turning challenges abroad into opportunities for growth.
 
-\---
+**Explore the Code & Dataset**: \[[GitHub Repo Link\]](https://github.com/AnnieFiB/my_projects/tree/main/DataAnalysis) | **Questions?** Let’s discuss in the comments!
 
-#StudyAbroad #MentalHealth #DataScience #HigherEducation
+`#StudyAbroad #MentalHealth #DataScience #HigherEducation`
 
-\- **Call-to-Action**: "Which factor surprised you most? Share your thoughts below!"
+`- Call-to-Action: "Which factor surprised you most? Share your thoughts below!"`
