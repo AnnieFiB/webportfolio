@@ -86,7 +86,7 @@ To restore the `.backup` file (custom format), ensure:
 
 - PostgreSQL is installed and running
 - The `pg_restore` tool is available in your terminal
-- You know the PostgreSQL username and have appropriate access
+- You know the PostgreSQL username (postgres) and have appropriate access
 
 ```bash
 pg_restore -U your_user -C -d postgres retailx_backup_2024_04_17.backup
