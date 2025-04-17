@@ -10,23 +10,26 @@ date: 2025-04-17T20:18:00.000Z
 link: >
   https://github.com/AnnieFiB/my_projects/tree/main/DataEngineering/DataModelling/retailx_casestudy
 ---
+# This project documents a complete data workflow for RetailX — from structured ETL design to insight generation:
+
 ````markdown
-
-
 ```python
+
 import pandas as pd
 
 df = pd.read_csv("sales_dataset.csv")
+
 df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
+
 df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce")
+
 df = df.drop_duplicates().dropna(subset=["order_id", "order_date"])
+
 df["cost"] = df["amount"] - df["profit"]
 ```
 ````
 
-This project documents a complete data workflow for RetailX — from structured ETL design to insight generation:
-
-\### 🔧 ETL & OLTP Design
+## 🔧 ETL & OLTP Design
 
 This project began by ingesting raw sales data and transforming it into a structured format. Below is a snippet of how data cleaning was performed using pandas:
 
@@ -46,11 +49,11 @@ df["cost"] = df["amount"] - df["profit"]
 
 \- Postgresql table creation and secure data loading using `psycopg2`
 
-> Next, we connected to Postgresql and created the OLTP schema:
+> Next, I connected to Postgresql and created the OLTP schema:
 
 \- Validation of load and schema integrity
 
-\### 📊 Sales Analysis
+## 📊 Sales Analysis
 
 With the cleaned data loaded into Postgresql, we explored:
 
@@ -79,9 +82,9 @@ This project demonstrates a comprehensive end-to-end data pipeline tailored for 
 
 By combining data engineering best practices with business-focused analysis, the notebook serves as a blueprint for building scalable, insight-driven workflows. It is especially valuable for data engineers, analysts, and BI practitioners aiming to bridge the gap between backend data modelling and front-end decision support.
 
-````markdown
-## Restoring the PostgreSQL Database from a `.backup` File
+## Restoring the Postgresql Database from a \`.backup\` File
 
+````markdown
 To restore the `.backup` file (custom format), ensure:
 
 - PostgreSQL is installed and running
