@@ -12,23 +12,6 @@ link: >
 ---
 # This project documents a complete data workflow for RetailX — from structured ETL design to insight generation:
 
-````markdown
-```python
-
-import pandas as pd
-
-df = pd.read_csv("sales_dataset.csv")
-
-df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
-
-df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce")
-
-df = df.drop_duplicates().dropna(subset=["order_id", "order_date"])
-
-df["cost"] = df["amount"] - df["profit"]
-```
-````
-
 ## 🔧 ETL & OLTP Design
 
 This project began by ingesting raw sales data and transforming it into a structured format. Below is a snippet of how data cleaning was performed using pandas:
