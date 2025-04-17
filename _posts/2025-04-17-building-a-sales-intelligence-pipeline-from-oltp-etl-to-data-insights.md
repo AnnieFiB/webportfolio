@@ -6,10 +6,8 @@ excerpt: This case study follows the complete journey of transforming raw sales
   support data-driven decisions for product, region, and customer strategies.
 coverImage: /assets/month_trend.png
 date: 2025-04-17T20:18:00.000Z
-link: >-
+link: >
   https://github.com/AnnieFiB/my_projects/tree/main/DataEngineering/DataModelling/retailx_casestudy
-
-  https://github.com/AnnieFiB/my_projects/blob/main/DataEngineering/DataModelling/retailx_casestudy/oltp_analysis_notebook.ipynb
 ---
 ````markdown
 
@@ -23,7 +21,6 @@ df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce")
 df = df.drop_duplicates().dropna(subset=["order_id", "order_date"])
 df["cost"] = df["amount"] - df["profit"]
 ```
-
 ````
 
 This project documents a complete data workflow for RetailX — from structured ETL design to insight generation:
@@ -80,3 +77,5 @@ LIMIT 5;
 This project demonstrates a comprehensive end-to-end data pipeline tailored for retail sales intelligence. It covers the full lifecycle from raw CSV ingestion, data cleaning, to structured loading in Postgresql. The process culminates in a suite of analytical queries and visualisations designed to extract actionable insights.
 
 By combining data engineering best practices with business-focused analysis, the notebook serves as a blueprint for building scalable, insight-driven workflows. It is especially valuable for data engineers, analysts, and BI practitioners aiming to bridge the gap between backend data modelling and front-end decision support.
+
+<p style="text-align: center">## 🔗 Explore the Project</p><p style="text-align: center">- 📂 <strong>Codebase</strong>: <strong>[</strong><a href="https://github.com/AnnieFiB/my_projects/tree/main/DataEngineering/DataModelling/retailx_casestudy"><strong>GitHub Link</strong></a><strong>] | [</strong><a href="https://github.com/AnnieFiB/my_projects/blob/main/DataEngineering/DataModelling/retailx_casestudy/retailx_backup_2024_04_17.backup"><strong>db_backup</strong></a><strong>]]</strong></p><p style="text-align: center">- 💡 <strong>Let's Talk</strong>: What strategies does your team use to improve sales performance and customer retention?</p>
