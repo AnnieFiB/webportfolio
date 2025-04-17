@@ -79,26 +79,17 @@ This project demonstrates a comprehensive end-to-end data pipeline tailored for 
 
 By combining data engineering best practices with business-focused analysis, the notebook serves as a blueprint for building scalable, insight-driven workflows. It is especially valuable for data engineers, analysts, and BI practitioners aiming to bridge the gap between backend data modelling and front-end decision support.
 
-\## Restoring the Postgresql Database
+````markdown
+## Restoring the PostgreSQL Database from a `.backup` File
 
-To restore the database from a backup file, ensure the following:
+To restore the `.backup` file (custom format), ensure:
 
-\- Postgresql is installed and running
+- PostgreSQL is installed and running
+- The `pg_restore` tool is available in your terminal
+- You know the PostgreSQL username and have appropriate access
 
-\- You have the correct database user and password
-
-\- The target database (\`retailx\_db\`) already exists
-
-\`\`\`bash
-
-psql -U your\_user -d retailx\_db -f your\_backup.sql
+```bash
+pg_restore -U your_user -C -d postgres retailx_backup_2024_04_17.backup
+````
 
 <p style="text-align: center">## 🔗 Explore the Project</p><p style="text-align: center">- 📂 <strong>Codebase</strong>: <strong>[</strong><a href="https://github.com/AnnieFiB/my_projects/tree/main/DataEngineering/DataModelling/retailx_casestudy"><strong>GitHub Link</strong></a><strong>] | [</strong><a href="https://github.com/AnnieFiB/my_projects/blob/main/DataEngineering/DataModelling/retailx_casestudy/retailx_backup_2024_04_17.backup"><strong>db_backup</strong></a><strong>]]</strong></p><p style="text-align: center">- 💡 <strong>Let's Talk</strong>: What strategies does your team use to improve sales performance and customer retention?</p>
-
-To restore db, Ensure: - Postgresql is running.
-
-\`\`\`bash
-
-psql -U your\_user -d retailx\_db -f your\_backup.sql
-
-\`\`\`
