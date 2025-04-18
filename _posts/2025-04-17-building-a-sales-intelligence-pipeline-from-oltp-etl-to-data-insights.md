@@ -5,7 +5,7 @@ excerpt: This case study follows the complete journey of transforming raw sales
   data into actionable business insights. It covers ETL for OLTP modeling in
   PostgreSQL, data cleaning in Python, and sales performance analytics to
   support data-driven decisions for product, region, and customer strategies.
-coverImage: /assets/month_trend.png
+coverImage: /assets/retailxdash.png
 date: 2025-04-17T20:18:00.000Z
 link: >
   https://github.com/AnnieFiB/my_projects/tree/main/DataEngineering/DataModelling/retailx_casestudy
