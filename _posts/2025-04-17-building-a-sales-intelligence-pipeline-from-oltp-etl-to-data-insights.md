@@ -32,13 +32,13 @@ df["cost"] = df["amount"] - df["profit"]
 
 \- Postgresql table creation and secure data loading using `psycopg2`
 
-> Next, I connected to Postgresql and created the OLTP schema:
+> Next, I connected to Postgresql and created the OLTP schema skipping 3NF (Assumption:Table is normlised):
 
 \- Validation of load and schema integrity
 
 ## 📊 Sales Analysis
 
-With the cleaned data loaded into Postgresql, we explored:
+With the cleaned data loaded into Postgresql, I explored:
 
 \- **Top-Selling Products**: `Tables` lead in quantity; `Markers` in revenue
 
