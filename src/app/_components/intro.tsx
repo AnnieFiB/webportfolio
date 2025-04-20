@@ -2,7 +2,7 @@ import { getLatestSettings } from "@/lib/getSettings";
 import { ContactCard } from "./contact-card";
 
 export function Intro() {
-  const { userName, userIntro } = getLatestSettings();
+  const { userName, userIntro, metaImage } = getLatestSettings();
 
   return (
     <section className="relative flex flex-col items-center md:items-start mt-16 mb-16 md:mb-12">
@@ -22,6 +22,11 @@ export function Intro() {
           {userIntro}
         </h4>
       </div>
+      <img
+        src={process.env.BASE_PATH + metaImage}
+        alt={userName}
+        className="w-16 h-16 md:w-36 md:h-36 rounded-full absolute right-0 top-0"
+      />
     </section>
   );
 }
