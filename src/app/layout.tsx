@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Quicksand } from "next/font/google";
 
 import "./globals.css";
 import { getLatestSettings } from "@/lib/getSettings";
 import { PREVIEW_IMAGE } from "@/lib/constants";
 
-const inter = Inter({ subsets: ["latin"] });
+const quicksand = Quicksand({ subsets: ["latin"] });
 
 const { userName, userIntro } = getLatestSettings();
 
@@ -57,7 +57,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={inter.className}>
+      <body className={quicksand.className}>
         <div className="min-h-screen">{children}</div>
         {/* <Footer /> */}
       </body>

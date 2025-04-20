@@ -5,14 +5,13 @@ const Header = () => {
   return (
     <>
       <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
+        <ContactCard />
         <Link href="/" className="hover:underline">
           Portfolio
         </Link>
         .
       </h2>
-      <div className="right-0 top-0 absolute p-5">
-        <ContactCard />
-      </div>
+      <div className="right-0 top-0 absolute p-5"></div>
     </>
   );
 };

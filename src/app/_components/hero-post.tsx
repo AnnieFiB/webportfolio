@@ -37,7 +37,7 @@ export function HeroPost({ title, coverImage, date, excerpt, slug }: Props) {
           </div>
         </div>
         <div>
-          <p className="text-lg md:text-3xl leading-relaxed mb-4">{excerpt}</p>
+          <p className="text-lg md:text-2xl leading-relaxed mb-4">{excerpt}</p>
         </div>
       </div>
     </section>
