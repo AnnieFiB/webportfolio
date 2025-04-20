@@ -6,6 +6,7 @@ import {
   LinkedInIcon,
   BlueSkyIcon,
   TwitterIcon,
+  EmailIcon,
 } from "./icons";
 
 export function ContactCard() {
@@ -21,7 +22,7 @@ export function ContactCard() {
     {
       key: "email",
       url: email,
-      Icon: () => <span className="text-gray-500">✉️</span>,
+      Icon: EmailIcon,
     }, // Placeholder for email icon
     {
       key: "phone",
