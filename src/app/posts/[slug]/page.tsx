@@ -10,7 +10,7 @@ import { PostHeader } from "../../_components/post-header";
 type Params = Promise<{ slug: string }>;
 
 export default async function Page({ params }: { params: Params }) {
-  const { slug } = await params; // ✅ Await params because it's now async
+  const { slug } = await params; // ✅ Await params because it's now async (nextjs 15 change I think)
   const post = getPostBySlug(slug);
 
   if (!post) {
