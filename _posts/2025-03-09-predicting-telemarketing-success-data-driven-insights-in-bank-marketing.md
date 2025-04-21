@@ -9,19 +9,19 @@ coverImage: /assets/banktelmart.png
 date: 2023-05-22T00:00:00.000Z
 link: https://github.com/AnnieFiB/my_projects/tree/main/DataAnalysis
 ---
-#### **📊 The Business Problem**
+# **📊 The Business Problem**
 
 Banks regularly run telemarketing campaigns to promote products like term deposits. But success rates are typically low—most people hang up, and agents waste time calling unlikely prospects. I asked: **Can we use data to predict which customers are likely to subscribe, and prioritise those calls?**
 
 This project tackles exactly that using a real-world dataset of Portuguese bank telemarketing calls.
 
-#### **💡 Project Goal**
+# **💡 Project Goal**
 
 Telemarketing remains a common channel in the banking sector, but with low conversion rates and high resource costs. My objective was clear: **Build a machine learning model to predict whether a customer will subscribe to a term deposit** based on call and demographic data, and make the process smarter, faster, and more efficient.
 
 * * *
 
-#### **🔍 Step 1: Exploratory Data Analysis (EDA)**
+# **🔍 Step 1: Exploratory Data Analysis (EDA)**
 
 Using a real dataset of Portuguese bank marketing campaigns, I explored the relationships between customer attributes and subscription behavior.  
 Key findings:
@@ -37,7 +37,7 @@ I visualised distributions, correlations, and campaign effectiveness to guide fe
 
 * * *
 
-#### **🧼 Step 2: Preprocessing & Feature Engineering**
+# **🧼 Step 2: Preprocessing & Feature Engineering**
 
 To prepare the dataset for machine learning:
 
@@ -56,7 +56,7 @@ To prepare the dataset for machine learning:
 
 * * *
 
-#### **Step 3: Model Building & Tuning**
+# **Step 3: Model Building & Tuning**
 
 I trained and compared multiple models:
 
@@ -64,7 +64,7 @@ I trained and compared multiple models:
     
 *   **Random Forest** for robustness and feature importance.
     
-*   **XGBoost** for high performance on tabular data.
+*   **Neural Network** for high performance on tabular data.
     
 
 After testing across cross-validation folds, 👉 **Random Forest Classifier** emerged as the best performer with:
@@ -84,7 +84,7 @@ These results strike a good balance, correctly identifying subscribers without o
 
 * * *
 
-#### **📈 Insights for Strategy**
+# **📈 Insights for Strategy**
 
 The model does more than predict—it reveals strategy:
 
@@ -103,7 +103,7 @@ These insights help craft more effective campaigns, not just more accurate ones.
 
 * * *
 
-#### **🔧 What I Learned**
+# **🔧 What I Learned**
 
 This project sharpened my skills in:
 
@@ -116,7 +116,7 @@ This project sharpened my skills in:
 
 * * *
 
-#### 🚀 **Next Steps**
+# **Next Steps**
 
 *   Deploying this model into a **Streamlit dashboard** for use by marketing teams.
     
@@ -127,7 +127,7 @@ This project sharpened my skills in:
 
 * * *
 
-#### **🚀 Final Thoughts**
+# **Final Thoughts**
 
 This project proves machine learning can turn noisy marketing campaigns into **precision targeting tools**. By building a pipeline that spans from raw data to business insight, I’ve created a solution that could help real organisations boost ROI and improve customer experience.
 
