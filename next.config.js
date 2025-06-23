@@ -6,7 +6,7 @@ const nextConfig = {
   },
   // add base path for gh-pages
   env: {
-    BASE_PATH: "/portfolio",
+    BASE_PATH: "/webportfolio",
   },
 };
 
