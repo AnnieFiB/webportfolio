@@ -7,7 +7,7 @@ excerpt: Discover how studying abroad impacts mental health through data-driven
   support international students. Read the full analysis.
 coverImage: /assets/sqlmntal.avif
 date: 2023-05-22T00:00:00.000Z
-link: https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/MentalHealthSQL_Panda.ipynb
+link: https://github.com/AnnieFiB/DataAnalysis/blob/main/notebooks/MentalHealthSQL_Panda.ipynb
 ---
 # **How Studying Abroad Affects Mental Health: A Data-Driven Analysis**
 
@@ -20,19 +20,15 @@ Studying abroad can be a transformative experience, but it also brings unique me
 1.  **Higher Depression Scores**
     
     1.  International students averaged **8.5/25** on the PHQ-9 depression scale, compared to 8.0 for domestic students.
-        
 2.  **Social Connectedness Matters**
     
     1.  A strong negative correlation (-0.54) between social ties and depression for international students.
-        
 3.  **Acculturative Stress Plays a Role**
     
     1.  Stress levels showed a **moderate positive correlation (0.41)** with depression for international students.
-        
 4.  **Length of Stay Has Mixed Effects**
     
     1.  Depression scores fluctuated for international students over time, peaking after 6+ years.
-        
 
 ## **Methodology: SQL & Python in Action**
 
@@ -58,12 +54,10 @@ Result: International students with lower social connectedness averaged 20% high
 ```
 
 *   _As social ties strengthen, depression scores drop, especially for international students._
-    
 
 **Acculturative Stress Impact**
 
 *   _Higher stress = Higher depression, with international students most affected._
-    
 
 ## **Actionable Recommendations**
 
