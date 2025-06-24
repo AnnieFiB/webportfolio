@@ -7,7 +7,7 @@ excerpt: Cold calls are costly. What if we could predict which customers are
   money, and morale.
 coverImage: /assets/banktelmart.png
 date: 2023-05-22T00:00:00.000Z
-link: https://github.com/AnnieFiB/my_projects/tree/main/DataAnalysis
+link: https://github.com/AnnieFiB/DataAnalysis/blob/main/notebooks/Bank_Telemarketing_Predictive_Modeling_EDA_ML.ipynb
 ---
 # **📊 The Business Problem**
 
