@@ -5,7 +5,7 @@ excerpt: Unlock the power of Python for HR attrition analysis. Dive into
   predictive modeling to enhance workforce management.
 coverImage: /assets/HR attrition analysis-3.png
 date: 2025-03-22T17:15:00.000Z
-link: https://hrattrition-dashboard.streamlit.app/
+link: https://hrattrition-dashboard-v1.streamlit.app/
 ---
 # **Predicting Employee Attrition: A Data-Driven Approach with IBM HR Analytics (Follow link below to the dashboard)**
 
