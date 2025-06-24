@@ -8,7 +8,7 @@ excerpt: Discover how RFM (Recency, Frequency, Monetary Value) analysis can
   implement RFM analysis to drive loyalty and revenue growth.
 coverImage: /assets/RFM.png
 date: 2023-04-14T00:00:00.000Z
-link: https://github.com/AnnieFiB/my_projects/blob/main/DataAnalysis/notebooks/Customer%20RFM%20Profiler.xlsx
+link: https://github.com/AnnieThonia/CustomerRFMProfiler-Excel/blob/main/workbook.xlsx
 ---
 # **Introduction**
 
