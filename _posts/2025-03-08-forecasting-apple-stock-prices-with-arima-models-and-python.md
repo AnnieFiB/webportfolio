@@ -5,7 +5,7 @@ excerpt: Explore advanced techniques for stock market forecasting, highlighting
   financial forecasting more precise and efficient
 coverImage: /assets/forecastingstock.png
 date: 2024-06-14T00:00:00.000Z
-link: https://arimastockforecastingtool-v1.streamlit.app/
+link: https://arimastockforecastingtool-v2.streamlit.app/
 ---
 # **Enhancing Stock Market Predictions: A Deep Dive into ARIMA Modeling**
 
