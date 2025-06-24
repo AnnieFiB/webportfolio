@@ -8,7 +8,7 @@ excerpt: This case study follows the complete journey of transforming raw sales
 coverImage: /assets/retailxdash.png
 date: 2025-04-17T20:18:00.000Z
 link: >
-  https://github.com/AnnieFiB/my_projects/tree/main/DataEngineering/DataModelling/retailx_casestudy
+  https://github.com/AnnieFiB/DataEngineering/tree/main/DWHmodelling/retailx_casestudy
 ---
 # This project documents a complete data workflow for RetailX — from structured ETL design to insight generation:
 
