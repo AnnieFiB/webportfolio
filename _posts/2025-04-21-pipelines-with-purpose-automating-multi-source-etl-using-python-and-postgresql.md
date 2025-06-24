@@ -7,4 +7,5 @@ excerpt: "From messy to modelled: This ETL pipeline extracts from multiple
   programmatically."
 coverImage: /assets/ETL-1.png
 date: 2025-04-21T00:00:00.000Z
+link: https://github.com/AnnieFiB/DataEngineering/blob/main/DWHmodelling/modular_ETL_pipeline.ipynb
 ---
