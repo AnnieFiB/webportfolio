@@ -1,12 +1,14 @@
 ---
-title: Batch ETL Pipeline with Pyspark and Task Scheduler Orchestration (On-Premise)
+title: Batch ETL Pipeline (Pyspark , Azure Blob Storage) and Task Scheduler
+  Orchestration (On-Premise)
 excerpt: This project aims to automate the Extract, Transform, Load (ETL),
   Extract, Load, Transform (ELT), and Extract, Transform, Load, and Loop (ELTL)
   processes to enhance data pipeline efficiency. By leveraging cloud-based
   solutions and orchestration tools, the system ensures seamless data
   integration, transformation, and storage while minimizing manual intervention.
-coverImage: /assets/etl-3.png
+coverImage: /assets/data architecture.png
 date: 2025-06-05T00:00:00.000Z
+link: https://github.com/AnnieFiB/DataEngineering/blob/main/airflow_taskScheduler/azure_etl_pipeline.py
 ---
 ### **ETL/ELT/ELTL Automation Project**
 
