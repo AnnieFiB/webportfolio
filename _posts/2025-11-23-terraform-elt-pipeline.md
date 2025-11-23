@@ -14,7 +14,7 @@ ogImage:
   url: /assets/eltarchitecture.png
 link: https://github.com/AnnieFiB/Terraform-ELT-pipeline
 ---
-# **The Story — Why I Built CivicPulse 311**
+## **The Story — Why I Built CivicPulse 311**
 
 Modern cities run on data. But civic agencies often operate blind.
 
