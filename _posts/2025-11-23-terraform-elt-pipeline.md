@@ -56,7 +56,7 @@ A modern city deserves a modern data pipeline — so I built one.
 
 * * *
 
-# **The Core Problem: Slow, Manual, and Outdated Data**
+## **The Core Problem: Slow, Manual, and Outdated Data**
 
 Before this solution, analysts faced real limitations:
 
@@ -72,7 +72,7 @@ City performance data was locked behind friction. CivicPulse 311 removes that fr
 
 * * *
 
-# **Architecture Overview — Engineered Like a Production System**
+## **Architecture Overview — Engineered Like a Production System**
 
 <p style="text-align: center"><code>![CivicPulse Architecture](https://github.com/AnnieFiB/webportfolio/blob/main/public/assets/adf_pipeline.png)</code></p>
 
@@ -95,9 +95,9 @@ A full enterprise-grade pipeline — but built entirely with open-source and Azu
 
 * * *
 
-# **How the System Works — Layer by Layer**
+## **How the System Works — Layer by Layer**
 
-## **1\. Extract — Airflow Captures the City’s Pulse**
+### **1\. Extract — Airflow Captures the City’s Pulse**
 
 Airflow orchestrates incremental pulls from the NYC Open Data API:
 
@@ -122,7 +122,7 @@ This turns messy JSON into clean, typed Parquet.
 
 * * *
 
-## **2\. Load — ADF Moves Data at Scale**
+### **2\. Load — ADF Moves Data at Scale**
 
 Azure Data Factory handles the heavy lifting:
 
@@ -139,7 +139,7 @@ ADF becomes the backbone of **reliable high-volume ingestion**.
 
 * * *
 
-## **3\. Transform — PostgreSQL Shapes Operational Insight**
+### **3\. Transform — PostgreSQL Shapes Operational Insight**
 
 Raw staging data is transformed into a deduplicated fact table via SQL:
 
@@ -166,7 +166,7 @@ The final dataset is **clean, explainable, and suitable for analytics**.
 
 * * *
 
-## **4\. Visualise — Power BI Turns Data into Insight**
+### **4\. Visualise — Power BI Turns Data into Insight**
 
 With clean data ready, dashboards unlock:
 
@@ -187,7 +187,7 @@ This is where stakeholders finally “see” the city. Power BI transforms the p
 
 * * *
 
-# **Infrastructure as Code — A Real Engineering Touch**
+## **Infrastructure as Code — A Real Engineering Touch**
 
 Everything — databases, storage accounts, Data Factory, networking — is deployed through **Terraform**, not manually.
 
@@ -212,7 +212,7 @@ One script provisions an entire civic analytics environment.
 
 * * *
 
-# **System Reliability — Designed for Real-World Failures**
+## **System Reliability — Designed for Real-World Failures**
 
 City systems must run even when:
 
@@ -239,7 +239,7 @@ The system is hard to break — and easy to restore.
 
 * * *
 
-# **Runbook — From Zero to Full Platform**
+## **Runbook — From Zero to Full Platform**
 
 **1\. Deploy Infrastructure**
 
