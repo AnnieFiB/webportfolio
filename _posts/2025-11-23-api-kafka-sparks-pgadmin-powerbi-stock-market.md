@@ -42,7 +42,7 @@ The goal wasn’t academic. It was to replicate the architecture that powers:
 ## **2\. Architectural Overview — A Distributed Pipeline With Real Intent**
 
 > **Insert Architecture Diagram Placeholder**  
-> `![Architecture Diagram](https://anniefib.github.io/webportfolio/assets/Dockerized system ar.png)`
+> `Architecture Diagram`
 
 The design follows a professional event-driven streaming pattern:
 
