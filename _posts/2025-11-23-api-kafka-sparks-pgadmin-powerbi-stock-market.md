@@ -41,7 +41,7 @@ The goal wasn’t academic. It was to replicate the architecture that powers:
 
 ## **2\. Architectural Overview — A Distributed Pipeline With Real Intent**
 
-<h2 style="text-align: center"><a href="https://anniefib.github.io/webportfolio/assets/Dockerized system ar.png"><br></a><code>Architecture Diagram</code></h2>
+<h2 style="text-align: center"><a href="https://github.com/AnnieFiB/webportfolio/blob/main/public/assets/Dockerized%20system%20ar.png"><br></a><code>Architecture Diagram</code></h2><p style="text-align: center"><a href="https://github.com/AnnieFiB/webportfolio/blob/main/public/assets/Dockerized%20system%20ar.png">https://github.com/AnnieFiB/webportfolio/blob/main/public/assets/Dockerized%20system%20ar.png</a></p>
 
 The design follows a professional event-driven streaming pattern:
 
