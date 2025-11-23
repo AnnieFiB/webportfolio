@@ -14,7 +14,7 @@ date: 2025-09-30T17:00:00.000Z
 link: |
   https://github.com/AnnieFiB/Project1-StockMarket
 ---
-<div style="font-size:14px; opacity:0.8">#DataPipeline #SparkStreaming #KafkaStreams #ETL #AIandData #CloudEngineering #OpenSource #Analytics #TimeSeriesData #FinancialAnalytics #DeveloperProjects</div>
+#DataPipeline #SparkStreaming #KafkaStreams #ETL #AIandData #CloudEngineering #OpenSource #Analytics #TimeSeriesData #FinancialAnalytics #DeveloperProjects
 
 ## **1\. Why I Built This — Engineering for Markets That Never Sleep**
 
@@ -41,8 +41,7 @@ The goal wasn’t academic. It was to replicate the architecture that powers:
 
 ## **2\. Architectural Overview — A Distributed Pipeline With Real Intent**
 
-> **Insert Architecture Diagram Placeholder**  
-> `Architecture Diagram`
+<h2 style="text-align: center"><a href="https://anniefib.github.io/webportfolio/assets/Dockerized system ar.png"><br></a><code>Architecture Diagram</code></h2>
 
 The design follows a professional event-driven streaming pattern:
 
