@@ -42,7 +42,7 @@ The goal wasn’t academic. It was to replicate the architecture that powers:
 ## **2\. Architectural Overview — A Distributed Pipeline With Real Intent**
 
 > **Insert Architecture Diagram Placeholder**  
-> `![Architecture Diagram](`**public/assets/Dockerized system ar.png**`)`
+> `![Architecture Diagram](https://anniefib.github.io/webportfolio/assets/Dockerized system ar.png)`
 
 The design follows a professional event-driven streaming pattern:
 
@@ -73,17 +73,7 @@ The pipeline begins where all good market systems begin: **the data feed**.
 
 A dedicated **API Producer service** queries Alpha Vantage at controlled intervals, fetching **multiple ticker symbols** in parallel. Each response includes granular OHLCV metrics:
 
-*   Open
-    
-*   High
-    
-*   Low
-    
-*   Close
-    
-*   Volume
-    
-*   Timestamp
+*   Open High Low Close Volume Timestamp
     
 
 **Sample Code:**
@@ -186,10 +176,7 @@ Spark ensures your transformations stay fast, distributed, and ready for scale.
 
 ## **7\. PostgreSQL — A Clean, Durable Time-Series Database**
 
-Once transformed, data moves into PostgreSQL:  
-a robust, SQL-friendly analytics store.
-
-It becomes your **permanent record** of market behaviour.
+Once transformed, data is moved into PostgreSQL: a robust, SQL-friendly analytics store. It becomes the **permanent record** of market behaviour.
 
 Example query:
 
@@ -213,15 +200,13 @@ You can now:
 *   Detect price patterns
     
 
-Postgres becomes your internal market history.
+Postgres becomes the internal market history.
 
 * * *
 
 ## **8\. Power BI — Real-Time Visual Intelligence**
 
-Power BI connects directly to Postgres, giving you a rich and constantly updating analytics interface.
-
-Your dashboard can include:
+Power BI connects directly to Postgres, providing a rich and constantly updating analytics interface. Dashboard can include:
 
 *   Real-time candlesticks
     
@@ -234,7 +219,7 @@ Your dashboard can include:
 *   Intraday behaviour analysis
     
 
-This transforms your pipeline from a technical achievement into a **decision-making tool**.
+This transforms the pipeline from a technical achievement into a **decision-making tool**.
 
 * * *
 
@@ -310,10 +295,7 @@ Debugging a distributed system becomes straightforward.
 
 ## **11\. The Engineering Impact — Why This Architecture Matters**
 
-This pipeline isn’t just a project.  
-It demonstrates my ability to build **real-time, distributed, production-grade data systems**.
-
-The architecture showcases:
+This pipeline isn’t just a project. It demonstrates my ability to build **real-time, distributed, production-grade data systems**. The architecture showcases:
 
 *   **Event-driven design**
     
@@ -334,8 +316,7 @@ It’s the exact type of system modern fintech and data engineering teams rely o
 
 ## **12\. Multi-Symbol Scaling — The Most Underrated Feature**
 
-Most demo pipelines ingest one symbol.  
-This one handles **many**, thanks to:
+Most demo pipelines ingest one symbol. This one handles **many**, thanks to:
 
 *   asynchronous API calls
     
@@ -390,9 +371,7 @@ The foundation is already enterprise-grade.
 
 ## **Conclusion — A Production-Ready Fintech Pipeline, Built End to End**
 
-This project demonstrates that one can engineer the same streaming architecture used by financial institutions, hedge funds, and trading platforms **end-to-end, containerised, and real-time**.
-
-You’ve built:
+This project demonstrates that one can engineer the same streaming architecture used by financial institutions, hedge funds, and trading platforms **end-to-end, containerised, and real-time**. I've built:
 
 *   a resilient ingestion system
     
@@ -405,19 +384,12 @@ You’ve built:
 
 …and it handles **multiple symbols**, continuously, with fault tolerance and replayability.
 
-This is modern data engineering.  
-This is fintech-grade real-time analytics.
+This is #modern-data-engineering. This is #fintech-grade-real-time analytics.
 
 * * *
 
 ### **View on GitHub**
 
-```
-<a href="https://github.com/AnnieFiB/Project1-StockMarket"
-target="_blank"
-style="padding:12px 20px; background:#24292e; color:#fff; text-decoration:none; border-radius:6px;">
-View Project on GitHub
-</a>
-```
+### ⇩
 
 * * *
