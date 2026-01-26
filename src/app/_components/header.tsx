@@ -10,6 +10,10 @@ const Header = () => {
         <Link href="/" className="hover:underline">
           Portfolio
         </Link>
+        {" · "}
+        <Link href="/about" className="hover:underline">
+          About
+        </Link>
         .
       </h2>
       <div className="right-0 top-0 absolute p-5"></div>
