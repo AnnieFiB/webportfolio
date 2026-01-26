@@ -25,7 +25,7 @@ export function Intro() {
       <img
         src={process.env.BASE_PATH + metaImage}
         alt={userName}
-        className="w-16 h-16 md:w-36 md:h-36 rounded-full absolute right-0 top-0"
+        className="w-16 h-16 md:w-36 md:h-36 rounded-full absolute right-0 top-0 object-cover"
       />
     </section>
   );
