@@ -6,15 +6,13 @@ import Container from "../../_components/container";
 import Header from "../../_components/header";
 import { PostBody } from "../../_components/post-body";
 import { PostHeader } from "../../_components/post-header";
-import { getLatestSettings } from "@/lib/getSettings";
+import { ProfilePic } from "../../_components/profile-pic";
 
 type Params = Promise<{ slug: string }>;
 
 export default async function Page({ params }: { params: Params }) {
   const { slug } = await params; // ✅ Await params because it's now async (nextjs 15 change I think)
   const post = getPostBySlug(slug);
-
-  const { metaImage } = getLatestSettings();
 
   if (!post) {
     return notFound();
@@ -26,11 +24,7 @@ export default async function Page({ params }: { params: Params }) {
     <main>
       <Container>
         <Header />
-        <img
-          src={process.env.BASE_PATH + metaImage}
-          alt={"user image"}
-          className="w-16 h-16 md:w-36 md:h-36 rounded-full absolute right-8 top-8 md:right-16 md:top-4"
-        />
+        <ProfilePic className="absolute right-8 top-8 md:right-16 md:top-4" />
         <article className="mb-32">
           <PostHeader
             title={post.title}

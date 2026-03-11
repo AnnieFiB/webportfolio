@@ -23,10 +23,10 @@ content:
       - { name: body, label: Body, type: rich-text }
       - {name: link, label: Link, type: text}
   
-  - name: settings
-    label: Settings
-    type: collection
-    path: _settings
+  - name: info
+    label: Info
+    type: file
+    path: _settings/site.md
     fields:
       - { name: userName, label: User Name, type: string, required: true }
       - { name: userIntro, label: User Intro, type: string, required: true }

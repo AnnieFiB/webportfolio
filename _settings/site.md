@@ -8,7 +8,7 @@ userIntro: "Expert in end-to-end data solutions: scalable pipelines (Python,
   (workforce optimization, talent insights) and business intelligence
   (operations, customer behavior). Delivered robust architectures, data
   warehousing, and automation tools that drive cost efficiency, growth, and
-  data-driven decision-making.  Let’s connect to transform your data into
+  data-driven decision-making.  Let's connect to transform your data into
   measurable business outcomes."
 metaImage: /assets/ppix.jpg
 linkedin: https://www.linkedin.com/in/busayofisuyianthonia
@@ -16,11 +16,11 @@ email: mailto:gwitmona@outlook.com
 github: https://github.com/AnnieFiB
 aboutMe: "My current work sits at the intersection of analytics, business
   intelligence, and data  engineering. I deliver executive-level analysis,
-  design Power BI dashboards, build SQL\x02driven data models, and engineer
+  design Power BI dashboards, build SQL-driven data models, and engineer
   automated pipelines that ensure insights remain  accurate, scalable, and
   trusted in production environments. I currently work in the UK public sector,
   supporting workforce planning, operational  performance, and policy decisions
-  with analytics that stand up to scrutiny. Alongside  this, I’ve delivered
+  with analytics that stand up to scrutiny. Alongside  this, I've delivered
   analytics and data platforms across legal services, energy,  enterprise, B2B,
   and technology, often in regulated or high-impact settings where data  quality
   and governance are critical. I hold a Distinction-level MSc in Business
@@ -29,14 +29,14 @@ aboutMe: "My current work sits at the intersection of analytics, business
   technical depth needed to build systems that last. Outside of day-to-day
   delivery, I enjoy building real-world analytics projects—from  customer
   segmentation and churn analysis to real-time financial and
-  disaster\x02response analytics—because the best way to sharpen analytical
-  judgement is to keep  solving practical problems with data. I haven’t always
+  disaster-response analytics—because the best way to sharpen analytical
+  judgement is to keep  solving practical problems with data. I haven't always
   worked exclusively in analytics. Earlier in my career, I worked closely  with
   enterprise systems, databases, and operational teams. That hands-on
   exposure  shaped how I approach analytics today: practical, outcome-driven,
   and grounded in  how organisations actually operate—not just how dashboards
   look. Analytics has been a natural fit for both my problem-solving mindset and
-  my ability to  communicate complex findings clearly. I’m particularly
+  my ability to  communicate complex findings clearly. I'm particularly
   interested in how analytics  teams can influence decision-making more
   effectively—by focusing less on volume of  metrics and more on clarity,
   relevance, and trust. In my free time, I enjoy continuous learning,
