@@ -21,19 +21,19 @@ export function PostPreview({ title, coverImage, date, excerpt, slug }: Props) {
           src={process.env.BASE_PATH + coverImage}
         />
       </div>
-      <h3 className="text-3xl mb-3 leading-snug">
+      <h3 className="text-lg md:text-xl font-semibold mb-2 leading-snug">
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
-          className="hover:underline"
+          className="text-[var(--color-mm-link)] hover:underline"
         >
           {title}
         </Link>
       </h3>
-      <div className="text-lg mb-4">
+      <div className="text-sm text-[var(--color-mm-muted)] mb-3">
         <DateFormatter dateString={date} />
       </div>
-      <p className="text-2xl leading-relaxed mb-4">{excerpt}</p>
+      <p className="text-[var(--color-mm-dark)] text-base leading-relaxed mb-4">{excerpt}</p>
     </div>
   );
 }

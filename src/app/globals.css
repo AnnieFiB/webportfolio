@@ -1,35 +1,35 @@
 @import "tailwindcss";
 
+/* Academic Pages / Minimal Mistakes theme */
 @theme {
-  /* Custom colors */
-  --color-accent-1: #FAFAFA;
-  --color-accent-2: #EAEAEA;
-  --color-accent-7: #333;
-  --color-success: #0070f3;
-  --color-cyan: #79FFE1;
+  --color-accent-1: #fafafa;
+  --color-accent-2: #eaeaea;
+  --color-accent-7: #3d4144;
+  --color-success: #3fa63f;
+  --color-cyan: #3b9cba;
 
-  /* Custom spacing */
-  --spacing-28: 7rem;
+  /* Minimal Mistakes palette */
+  --color-mm-gray: #7a8288;
+  --color-mm-dark: #3d4144;
+  --color-mm-primary: #6f777d;
+  --color-mm-link: #3b9cba;
+  --color-mm-border: #e8e8e8;
+  --color-mm-bg: #fff;
+  --color-mm-muted: #6b7280;
 
-  /* Custom letter spacing */
-  --letter-spacing-tighter: -0.04em;
-
-  /* Custom font sizes */
-  --font-size-5xl: 2.5rem;
-  --font-size-6xl: 2.75rem;
-  --font-size-7xl: 4.5rem;
-  --font-size-8xl: 6.25rem;
-
-  /* Custom box shadows */
-  --shadow-sm: 0 5px 10px rgba(0, 0, 0, 0.12);
-  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --shadow-sm: 0 1px 1px rgba(0, 0, 0, 0.125);
+  --shadow-md: 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
-/* Custom background image utilities */
-.bg-gradient-radial {
-  background-image: radial-gradient(var(--tw-gradient-stops));
+/* Academic Pages layout */
+.academic-sidebar {
+  width: 300px;
+  min-width: 300px;
 }
 
-.bg-gradient-conic {
-  background-image: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
+@media (max-width: 1023px) {
+  .academic-sidebar {
+    width: 100%;
+    min-width: 100%;
+  }
 }

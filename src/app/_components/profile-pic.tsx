@@ -6,7 +6,7 @@ type Props = Readonly<{
 }>;
 
 const baseClasses =
-  "w-16 h-16 md:w-36 md:h-36 rounded-full object-cover";
+  "w-14 h-20 md:w-28 md:h-40 rounded-[50%] object-cover";
 
 export function ProfilePic({ className }: Props) {
   const { metaImage, userName } = getLatestSettings();
