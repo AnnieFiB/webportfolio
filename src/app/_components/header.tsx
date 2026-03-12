@@ -19,12 +19,8 @@ const Header = () => {
       <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
         <ContactCard contacts={contacts} />
         <div className="min-h-2" />
-        <Link href="/" className="hover:underline">
+        <Link href="/portfolio" className="hover:underline">
           Portfolio
-        </Link>
-        {" · "}
-        <Link href="/about" className="hover:underline">
-          About
         </Link>
         .
       </h2>
