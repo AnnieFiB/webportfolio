@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Quicksand } from "next/font/google";
 
 import "./globals.css";
 import { getLatestSettings } from "@/lib/getSettings";
 import { PREVIEW_IMAGE } from "@/lib/constants";
-
-const quicksand = Quicksand({ subsets: ["latin"] });
+import { Masthead } from "./_components/masthead";
+import { Sidebar } from "./_components/sidebar";
 
 const { userName, userIntro } = getLatestSettings();
 
@@ -54,12 +53,25 @@ export default function RootLayout({
           name="msapplication-config"
           content="/favicon/browserconfig.xml"
         />
-        <meta name="theme-color" content="#000" />
+        <meta name="theme-color" content="#fff" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={quicksand.className}>
-        <div className="min-h-screen">{children}</div>
-        {/* <Footer /> */}
+      <body
+        className="min-h-screen bg-[var(--color-mm-bg)] text-[var(--color-mm-dark)]"
+        style={{
+          fontFamily:
+            '-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif',
+        }}
+      >
+        <div className="min-h-screen flex flex-col">
+          <Masthead />
+          <div className="flex flex-1 flex-col lg:flex-row max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
+            <Sidebar />
+            <main className="flex-1 min-w-0 py-8 lg:pl-8">
+              {children}
+            </main>
+          </div>
+        </div>
       </body>
     </html>
   );

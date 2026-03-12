@@ -1,9 +1,7 @@
 import { Metadata } from "next";
 import Container from "@/app/_components/container";
-import Header from "@/app/_components/header";
 import { getLatestSettings } from "@/lib/getSettings";
 import { AboutBody } from "@/app/_components/about-body";
-import { ProfilePic } from "@/app/_components/profile-pic";
 import markdownToHtml from "@/lib/markdownToHtml";
 
 export const metadata: Metadata = {
@@ -17,19 +15,15 @@ export default async function AboutPage() {
   const content = await markdownToHtml(aboutMe || "");
 
   return (
-    <main>
-      <Container>
-        <Header />
-        <ProfilePic className="absolute right-8 top-8 md:right-16 md:top-4" />
-        <article className="mb-32">
-          <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight mb-8">
-            About Me
-          </h1>
-          <div className="max-w-3xl">
-            <AboutBody content={content} />
-          </div>
-        </article>
-      </Container>
-    </main>
+    <Container>
+      <article className="mb-16">
+        <h1 className="text-2xl md:text-3xl font-bold text-[var(--color-mm-dark)] mb-2">
+          About Me
+        </h1>
+        <div className="max-w-3xl mt-6">
+          <AboutBody content={content} />
+        </div>
+      </article>
+    </Container>
   );
 }

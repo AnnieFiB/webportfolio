@@ -3,10 +3,8 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "../../../lib/api";
 import markdownToHtml from "../../../lib/markdownToHtml";
 import Container from "../../_components/container";
-import Header from "../../_components/header";
 import { PostBody } from "../../_components/post-body";
 import { PostHeader } from "../../_components/post-header";
-import { ProfilePic } from "../../_components/profile-pic";
 
 type Params = Promise<{ slug: string }>;
 
@@ -21,20 +19,16 @@ export default async function Page({ params }: { params: Params }) {
   const content = await markdownToHtml(post.content || "");
 
   return (
-    <main>
-      <Container>
-        <Header />
-        <ProfilePic className="absolute right-8 top-8 md:right-16 md:top-4" />
-        <article className="mb-32">
-          <PostHeader
-            title={post.title}
-            coverImage={post.coverImage}
-            date={post.date}
-          />
-          <PostBody content={content} link={post.link || ""} />
-        </article>
-      </Container>
-    </main>
+    <Container>
+      <article className="mb-16">
+        <PostHeader
+          title={post.title}
+          coverImage={post.coverImage}
+          date={post.date}
+        />
+        <PostBody content={content} link={post.link || ""} />
+      </article>
+    </Container>
   );
 }
 

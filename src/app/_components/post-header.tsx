@@ -17,7 +17,7 @@ export function PostHeader({ title, coverImage, date }: Props) {
         <CoverImage title={title} src={process.env.BASE_PATH + coverImage} />
       </div>
       <div className="max-w-full mx-auto">
-        <div className="mb-6 text-lg">
+        <div className="mb-6 text-sm text-[var(--color-mm-muted)]">
           <DateFormatter dateString={date} />
         </div>
       </div>
