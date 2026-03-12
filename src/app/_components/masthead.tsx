@@ -16,16 +16,10 @@ export function Masthead() {
           </Link>
           <nav className="flex gap-6">
             <Link
-              href="/"
+              href="/portfolio"
               className="text-[var(--color-mm-primary)] hover:text-[var(--color-mm-link)] transition-colors"
             >
               Portfolio
-            </Link>
-            <Link
-              href="/about"
-              className="text-[var(--color-mm-primary)] hover:text-[var(--color-mm-link)] transition-colors"
-            >
-              About
             </Link>
           </nav>
         </div>
