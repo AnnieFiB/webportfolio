@@ -38,10 +38,4 @@ content:
       - {name: phone, label: Phone, type: string, required: false}
       - {name: bluesky, label: BlueSky, type: string, required: false}
       - {name: github, label: GitHub, type: string, required: false}
-      - name: aboutMe
-        label: About Me
-        type: text
-        required: false
-        options:
-          rows: 16
-          autoresize: true
+      - {name: aboutMe, label: About Me, type: string, required: false}
