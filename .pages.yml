@@ -29,7 +29,7 @@ content:
     path: _settings/site.md
     fields:
       - { name: userName, label: User Name, type: string, required: true }
-      - { name: userIntro, label: User Intro, type: string, required: true }
+      - { name: userIntro, label: User Intro, type: text, required: true }
       - {name: metaImage, label: Thumbnail Image, type: image, required: false}
       - {name: instagram, label: Instagram, type: string, required: false}
       - {name: facebook, label: Facebook, type: string, required: false}
